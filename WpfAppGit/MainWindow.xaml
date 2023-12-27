@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="git测试 文件修改 提交更改" HorizontalAlignment="Left" Height="35" Margin="459,272,0,0" VerticalAlignment="Top" Width="225" FontSize="18" HorizontalContentAlignment="Center"/>
 
     </Grid>
 </Window>
