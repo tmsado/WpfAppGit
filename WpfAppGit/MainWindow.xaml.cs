@@ -25,5 +25,10 @@ namespace WpfAppGit
         {
             MessageBox.Show("This is a first wpf test project");
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            lbl_a.Content = ((TextBox)sender).Text;
+        }
     }
 }
