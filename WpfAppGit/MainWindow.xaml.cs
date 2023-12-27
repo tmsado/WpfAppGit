@@ -24,6 +24,7 @@ namespace WpfAppGit
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("This is a first wpf test project");
+            MessageBox.Show("Ok, that is.");
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
