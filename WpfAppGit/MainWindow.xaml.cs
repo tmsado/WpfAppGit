@@ -20,5 +20,10 @@ namespace WpfAppGit
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("This is a first wpf test project");
+        }
     }
 }
